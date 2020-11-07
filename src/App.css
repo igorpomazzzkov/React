@@ -27,3 +27,7 @@
   grid-area: c;
   background-color: rgb(142, 164, 197);
 }
+
+.content img{
+  size: auto;
+}
