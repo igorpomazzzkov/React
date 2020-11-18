@@ -1,0 +1,18 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;    
+    padding: 10px;
+    background-color: #8ea4c5;
+}
+
+.link{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.link.active{
+    color: gold;
+}

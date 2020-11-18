@@ -1,0 +1,13 @@
+.content{
+    display: flex;
+}
+
+.content img{
+    width: 50px;
+    height: 50px;
+    padding: 0 5px;
+}
+
+.wrapper{
+    margin: 10px;
+}

@@ -2,32 +2,12 @@
   display: grid;
   width: 1200px;
   margin: 0 auto;
-  grid-template-areas: "header header" "nav c";
-
+  grid-template-areas: "header header" "nav c" "footer footer";
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
   grid-gap: 10px;
 }
 
-.header{
-  grid-area: header;
-  background-color: rgb(227, 227, 243);
-}
-
-.header img{
-  width: 60px;
-}
-
-.nav{
-  grid-area: nav;
-  background-color: rgb(113, 147, 197);
-}
-
 .content{
-  grid-area: c;
-  background-color: rgb(142, 164, 197);
-}
-
-.content img{
-  size: auto;
+  background-color: rgb(215, 215, 255);
 }
