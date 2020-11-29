@@ -1,18 +1,15 @@
 .nav{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;    
-    padding: 10px;
-    background-color: #8ea4c5;
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: end;
 }
 
 .link{
+    font-size: 20px;
     color: white;
-    font-size: 22px;
     text-decoration: none;
 }
 
-.link.active{
+.active{
     color: gold;
 }

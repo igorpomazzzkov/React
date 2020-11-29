@@ -1,8 +1,17 @@
-.header{
+.header {
+    display: grid;
     grid-area: header;
-    background-color: #8ea4c5;
+    grid-template: 100px / 1fr minmax(auto, 300px) minmax(auto, 900px) 1fr;
+    align-items: center;
+    background-color: mediumseagreen;
 }
 
-.header img{
-    width: 60px;
+.header__logo {
+    display: grid;
+    grid-column: 2/3;
+}
+
+.menu {
+    display: grid;
+    grid-column: 3/4;
 }

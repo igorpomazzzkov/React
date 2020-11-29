@@ -18,7 +18,6 @@ const ProfileInfo = (props) => {
 
     return (
         <div className={s.content}>
-            <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" alt="Sorry"/>
             <p>DESCRIPTION</p>
             <br/>
             <div className={s.add_post}>
